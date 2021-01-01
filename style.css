@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: lightgray;
+}
+
+header {
+  text-align: center;
+  font-size: 16pt;
+  background-color: whitesmoke;
+  height: auto;
+  margin:10px;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 14pt;
+}
+
+p {
+  font-size: 10pt;
+}
+
+.center {
+  text-align: center;
+}
