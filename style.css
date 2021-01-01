@@ -1,71 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <!-- website title as my name -->
-    <title>Tony Cano</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
+* {
+  box-sizing: border-box;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  <body>
-    <!-- header with my name & title -->
-    <header>
-      <section>
-        <h1>Tony Cano</h1>
-      </section>
-      <section>
-        <h2>Full-Stack Software Engineer</h2>
-        <p>*(in training)</p>
-        <img src="Images/Tony-Headshot.jpg" alt="Headshot" width="400"/>
-  <!--include buttons to drop down to the corresponding section of the website. i.e. contact info, etc. -->
-      </section>
-      <section>
-        <h2>Hello, I'm Tony Cano</h2>
-          <p class="left">I'm an aspiring software engineer living in Atlanta, GA. As a current marketer, and former consumer insights manager, I'm interested in:</p>
-            <ul>
-              <li class="left">Building solutions that meet a true user need</li>
-              <li class="left">Telling a story that users will understand and embrace</li>
-            </ul>
-      </section>
-    </header>
+body{
+  background-color: lightgray;
+}
 
-<hr>
+header {
+  text-align: center;
+  background-color: whitesmoke;
+  height: auto;
+  margin:10px;
+  padding: 5px;
+}
 
-    <main>
-      <section>
-          <!--about section of website in unstructured list format-->
-          <h2 class="center"> About Tony </h2>
-              <p>From starting out my career in a local start-up, to leading product innovation in a global Fortune 100 company, I have a track record of analytically uncovering opportunities, building capabilities, streamlining processes, and fostering collaboration. People say I'm fun to work with too.</p>
-          <!--structed list of expertise areas-->
-          <h3 class="center">Specific areas of expertise include:</h3>
-            <ol>
-              <li>Data Analytics</li>
-              <li>Consumer Insights</li>
-              <li>Brand Marketing</li>
-              <li>Project Management: Scrum & PMI</li>
-              <li>Process Improvemnt</li>
-              <li>Product Innovation</li>
-            </ol>
-      </section>
-    </main>
+h2 {
+  font-size: 14pt;
+}
 
-<hr>
+p ul ol li {
+  font-size: 10pt;
+  text-align: left;
+}
 
-    <footer>
-        <section>
-            <h3 class="center">Contact</h3>
-            <!--link to my linkedin profile... peding to UPDATE with logo instead...-->
-              <p class="center"><a href="https://www.linkedin.com/in/tony-cano/" target="_blank">LinkedIn</a></p>
-              <!--link to my GitHub profile... peding to UPDATE with logo instead...-->
-              <p class="center"><a href="https://github.com/tonycano" target="_blank">GitHub</a></p>
-              <!--shortcut to open email provider with to: set to my email address.. pending to UPDATE with email logo instead-->
-              <p class="center"><a href="mailto:tonycano.cc@gmail.com">Email</a></p>
-        </section> 
-    </footer>
+.center {
+  text-align: center;
+}
 
-    <script src="script.js"></script>
-  </body>
+.left{
+  text-align: left;
+}
 
-  
-</html>
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: darkgreen;
+}
+
+/* selected link */
+a:active {
+  color: aqua;
+}
