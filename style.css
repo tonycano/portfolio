@@ -10,7 +10,6 @@ body{
 
 header {
   text-align: center;
-  font-size: 16pt;
   background-color: whitesmoke;
   height: auto;
   margin:10px;
@@ -21,10 +20,15 @@ h2 {
   font-size: 14pt;
 }
 
-p {
+p ul ol li {
   font-size: 10pt;
+  text-align: left;
 }
 
 .center {
   text-align: center;
+}
+
+.left{
+  text-align: left;
 }
