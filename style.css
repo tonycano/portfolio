@@ -32,3 +32,23 @@ p ul ol li {
 .left{
   text-align: left;
 }
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: darkgreen;
+}
+
+/* selected link */
+a:active {
+  color: aqua;
+}
